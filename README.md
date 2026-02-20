@@ -1,9 +1,10 @@
+___
 🌍 Tradutor Online 
 
 Aplicação web simples para tradução de textos do português para diversos idiomas, utilizando a API gratuita MyMemory. 
 
 O projeto foi desenvolvido com HTML, CSS e JavaScript puro, consumindo uma API externa via fetch. 
-
+___
 📸 Preview 
 
 Interface moderna com: 
@@ -16,6 +17,7 @@ Botão para traduzir
 
 Área de exibição do resultado 
 
+___
 🚀 Funcionalidades 
 
 ✅ Tradução de textos do português para: 
@@ -42,6 +44,7 @@ Francês
 
 ✅ Feedback visual durante a tradução 
 
+___
 🛠️ Tecnologias Utilizadas 
 
 HTML5 
