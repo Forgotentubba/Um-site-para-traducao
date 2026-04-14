@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace ;
+    font-family: monospace;
 }
 
 body {
@@ -15,14 +15,14 @@ body {
     justify-content: center;
 }
 
-.caixa-maior{
-    background-color:#000000f2;
+.caixa-maior {
+    background-color: #000000f2;
     width: 450px;
     border-radius: 25px;
     padding: 20px;
 }
 
-.input-texto{
+.input-texto {
     width: 100%;
     height: 100px;
     border: none;
@@ -32,19 +32,19 @@ body {
     color: white;
     font-size: 16px;
     padding: 10px;
+    resize: none;
 }
 
-.controle{
+.controle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
     gap: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.idioma{
+.idioma {
     width: 100%;
     border: none;
     border-radius: 20px;
@@ -52,34 +52,35 @@ body {
     padding: 10px;
     background-color: #ffffff1a;
     color: rgb(2, 255, 74);
+    cursor: pointer;
 }
 
-button{
+button {
     border: none;
     border-radius: 50%;
     padding: 15px;
     background-color: #ffffff1a;
     cursor: pointer;
-    transition: 1s;
+    transition: background-color 0.3s;
 }
 
-button:hover{
+button:hover {
     background-color: aqua;
 }
 
-.resultado{
+.resultado {
     padding: 15px;
     background-color: #ffffff1a;
     border-radius: 15px;
 }
 
-.titulo{
-    color:dimgray;
+.titulo {
+    color: dimgray;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-.traducao{
+.traducao {
     color: white;
     font-size: 16px;
 }
