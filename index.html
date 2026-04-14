@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tradutor</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="caixa-maior">
-        <textarea class="input-texto"></textarea>
-        
-    <div class="controle">
-        <select class="idioma">
-            <option>inglês</option> 
-            <option>japonês</option>
-            <option>alemão</option>
-            <option>russo</option>
-            <option>coreano</option>
-            <option>chines</option>
-            <option>francês</option>
-        </select>
+        <textarea class="input-texto" placeholder="Digite o texto aqui..."></textarea>
 
-        <button onclick="">
-            <img src="./img/traduzir.svg">
-        </button>
-        <button>
-            <img src="./img/microfone.svg">
-        </button>
+        <div class="controle">
+            <select class="idioma">
+                <option value="en">inglês</option>
+                <option value="ja">japonês</option>
+                <option value="de">alemão</option>
+                <option value="ru">russo</option>
+                <option value="ko">coreano</option>
+                <option value="zh">chinês</option>
+                <option value="fr">francês</option>
+                <option value="sp">espanhol</option>
+                
+            </select>
 
+            <button id="btn-traduzir" title="Traduzir">
+                <img src="./img/traduzir.svg" alt="Traduzir">
+            </button>
+            <button id="btn-microfone" title="Usar microfone">
+                <img src="./img/microfone.svg" alt="Microfone">
+            </button>
+        </div>
+
+        <div class="resultado">
+            <h3 class="titulo">Tradução</h3>
+            <p class="traducao">A tradução aparecerá aqui...</p>
+        </div>
     </div>
 
-    <div class="resultado">
-        <h3 class="titulo">Tradução</h3>
-        <p class="traducao">A tradução aparecerá aqui...</p>
-    </div>
-
+    <script src="script.js"></script>
 </body>
 
-<script src="script.js">
-
-</script>
 </html>
